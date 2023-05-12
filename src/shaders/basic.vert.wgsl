@@ -1,9 +1,9 @@
 struct UBO {
-  time: f32
+  time: f32,
 };
 
 @group(0) @binding(0)
-var<uniform> uniforms: UBO
+var<uniform> uniforms: UBO;
 
 struct VSOut {
   @builtin(position) Position: vec4f,
